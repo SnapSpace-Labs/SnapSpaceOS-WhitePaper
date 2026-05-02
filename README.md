@@ -41,6 +41,43 @@ We demonstrate working implementations across five fundamentally different verti
 
 ---
 
+## Vertical Showcase
+
+### <a id="snappa"></a>🏥 SnapPA — Healthcare Prior Authorization
+**JQS-gated PA decisions for PBMs and health plans.** Every prior authorization proposal evaluated by 5 jurors: Cost Efficacy, Clinical Guideline, Formulary Tier, Patient History, Prior Auth Compliance. Verdicts: APPROVED / DENIED / ESCALATED. Target: <1s decisions, >70% auto-approve rate.
+
+[SnapPA Repository](https://github.com/SnapSpace-Labs/SnapPA) (private — contact for access)
+
+---
+
+### <a id="snappilot"></a>🚗 SnapPilot — Autonomous Vehicle Decision Pilot
+**JQS-gated lane changes, merges, speed adjustments, emergency maneuvers.** Every AV action evaluated by 5 jurors: Traffic Safety, Obstacle Avoidance, Navigation Consistency, Passenger Comfort, Emergency Response. Verdict: ALLOW / DENY / ESCALATE. Target: <10ms jury latency, <0.01% false positive.
+
+[SnapPilot Repository](https://github.com/SnapSpace-Labs/SnapPilot) (private — contact for access)
+
+---
+
+### <a id="snapgaming"></a>🎰 SnapGaming — Online Gambling Governance
+**Fairness verification, RNG auditing, AML/KYC gates, responsible gambling limits.** Every bet, withdrawal, bonus claim, and jackpot win evaluated by 5 jurors: Fairness, AML Compliance, Responsible Gambling, Game Integrity, Regulatory. Verdict: ALLOW / DENY / ESCALATE. GLI-19 compliant architecture.
+
+[SnapGaming Repository](https://github.com/SnapSpace-Labs/SnapGaming) (private — contact for access)
+
+---
+
+### <a id="snapburst"></a>🛰️ SnapBurst — Remote Command Execution
+**Local-first JQS for disconnected environments.** Submarines, satellites, deep sea stations, arctic outposts. Commands arrive in burst buffers during contact windows, get evaluated by 5 jurors: Mission Alignment, System Safety, Auth Validity, Resource Impact, Escalation Check. Novel 3-way verdict: ALLOW / DENY / STOW. Zero cloud dependency.
+
+[SnapBurst Repository](https://github.com/SnapSpace-Labs/SnapBurst) (private — contact for access)
+
+---
+
+### <a id="snapdelivers"></a>🛵 SnapDelivers — Hybrid Delivery Infrastructure
+**Local-first dispatch with cloud sync.** On-prem dispatch runs at the restaurant/fleet hub. Cloud syncs menus, analytics, and cross-fleet coordination. Offline-resilient using SnapBurst burst buffer patterns. UberEats/Grab scale at half the cloud bill.
+
+[SnapDelivers Repository](https://github.com/SnapSpace-Labs/SnapDelivers) (private — contact for access)
+
+---
+
 ## About SnapSpace Labs
 
 SnapSpace Labs builds hard governance infrastructure for autonomous AI agents. Our kernel enforces deterministic, auditable, local-first execution boundaries — no cloud dependency, no per-transaction cost, no black-box proprietary binaries.
@@ -48,3 +85,4 @@ SnapSpace Labs builds hard governance infrastructure for autonomous AI agents. O
 **Contact:** For investment inquiries, partnership discussions, or competitive analysis, reach out via GitHub Issues on this repository.
 
 **Status:** Early-stage. Core kernel validated across 5 verticals. Pursuing Y Combinator S26 and strategic partnerships.
+
